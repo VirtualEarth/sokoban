@@ -792,7 +792,7 @@ ReturnType genLevel(void* _id){
     for(int i1=0;i1<1000;i1++){
         char fn[260];
 #ifdef WIN32
-        sprintf(fn, "D:/sokobanlv/%d_%d.bin", id, i1);
+        sprintf(fn, "i:/sokobanlv/%d_%d.bin", id, i1);
 #else
         sprintf(fn, "/home/wf/sokobanlv/%d_%d.bin", id, i1);
 #endif // WIN32
